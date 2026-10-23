@@ -6,6 +6,24 @@ O relatório explora a distribuição territorial da votação no primeiro turno
 
 🔗 **[Acessar o dashboard interativo](https://app.powerbi.com/view?r=eyJrIjoiMWVkYzVjYWQtNDViNy00ZjM1LWJmMDgtZDI2YmI3OGJjMWUxIiwidCI6IjYwMjcxMGYzLTAyNGYtNGQ2YS1hZDQ4LTM3OTkwZTU4MzUwMCJ9)**
 
+## Prévia do dashboard
+
+### Visão geral
+![Visão geral dos resultados eleitorais](imagens/visao-geral.png)
+
+### Análise territorial
+![Análise territorial dos resultados](imagens/analise-territorial.png)
+
+### Análise municipal
+![Comparecimento e abstenção por município](imagens/analise-municipal.png)
+
+### Correlações regionais
+![Correlações entre perfil do eleitorado e votação](imagens/correlacoes-regionais.png)
+
+### Bolsa Família e votação
+![Associação entre famílias beneficiárias e diferença de votação municipal](imagens/bolsa-familia-votacao.png)
+
+
 ## Objetivo
 
 Investigar como a votação varia entre municípios, estados e regiões e como essas diferenças se relacionam com o tamanho do eleitorado, a composição demográfica e os indicadores municipais.
