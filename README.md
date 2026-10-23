@@ -46,6 +46,22 @@ O projeto também demonstra etapas de preparação de dados, modelagem, constru�
 - **DAX:** indicadores, percentuais, diferenças em pontos percentuais e correlações.
 - **Power BI Service:** publicação e acesso ao relatório.
 
+## Modelo de dados
+
+![Modelo de dados do projeto](imagens/modelo-dados.png)
+
+O modelo utiliza dimensões compartilhadas para filtrar tabelas de fatos com diferentes granularidades.
+
+- **Dim_Localidade:** conecta votação, apuração e perfil do eleitorado pela chave de localidade e reúne atributos geográficos e indicadores municipais.
+- **Dim_Candidato:** identifica os candidatos relacionados à tabela de votação de 2026.
+- **Fato_Votacao e Fato_Votacao_2022:** armazenam os registros de votação dos respectivos anos.
+- **Fato_Apuracao e Fato_Apuracao_2022:** fornecem os totais utilizados nos indicadores de participação e apuração.
+- **Fato_Perfil_Eleitorado:** contém os quantitativos do eleitorado por características cadastrais.
+
+Os relacionamentos seguem a cardinalidade um para muitos, com filtragem das dimensões para as tabelas de fatos. As tabelas de fatos não se relacionam diretamente entre si.
+
+A dimensão de candidatos de 2026 não filtra a votação de 2022. A comparação histórica utiliza medidas específicas para os candidatos de cada eleição.
+
 ## Preparação e modelagem dos dados
 
 O desenvolvimento incluiu:
