@@ -72,6 +72,39 @@ O desenvolvimento incluiu:
 | Correlações regionais | Associações entre composição do eleitorado e diferença de votação |
 | Comparação histórica | Resultados dos primeiros turnos de 2022 e 2026 |
 
+## Principais achados
+
+### A abstenção varia entre os municípios
+
+No recorte Brasil e exterior, o dashboard apresenta uma taxa de abstenção de **21,08%**.
+
+A comparação municipal permite identificar diferenças em relação à taxa do próprio estado. São Paulo (capital), por exemplo, apresenta **23,39%**, ficando **0,85 ponto percentual acima** da referência estadual. Fortaleza apresenta **13,02%**, ficando **2,50 pontos percentuais abaixo** da referência do Ceará.
+
+Comparar cada município com seu estado acrescenta contexto à leitura das taxas locais.
+
+### O padrão nacional pode diferir dos padrões regionais
+
+A participação de eleitores de **40 a 44 anos** apresenta correlação positiva com a diferença de votação Flávio − Lula nas cinco regiões, mas negativa no agregado nacional (**r = −0,153**).
+
+Isso mostra que uma associação calculada para o país pode ter direção diferente das associações dentro de cada região. A composição regional precisa ser considerada na interpretação; o resultado agregado não resume todos os padrões locais.
+
+### Escolaridade apresenta associações distintas conforme a categoria
+
+A participação de eleitores com **ensino superior completo** apresenta correlação positiva com a diferença Flávio − Lula no agregado nacional (**r = 0,584**) e nas cinco regiões.
+
+Já a participação de eleitores classificados como **“lê e escreve”** apresenta correlação nacional negativa (**r = −0,694**).
+
+Esses resultados descrevem associações entre a composição do eleitorado municipal e a votação. Não identificam o voto individual das pessoas de cada escolaridade.
+
+### Bolsa Família apresenta associação negativa nas cinco regiões
+
+A relação entre famílias beneficiárias por mil habitantes e a diferença Flávio − Lula apresenta correlação nacional de **r = −0,828**.
+
+A associação também é negativa nas cinco regiões, com valores entre **−0,373 no Nordeste** e **−0,642 no Sul**. Na base analisada, municípios com maior número de famílias beneficiárias por mil habitantes tendem a apresentar uma diferença de votação mais favorável a Lula.
+
+O indicador utiliza famílias beneficiárias em setembro de 2026 e população estimada de 2026. A associação observada não demonstra que o recebimento do benefício determine o voto, nem permite identificar como os beneficiários votaram.
+
+
 ## Critérios de análise
 
 ### Percentuais e diferenças
