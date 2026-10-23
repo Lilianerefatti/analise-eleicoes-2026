@@ -46,6 +46,10 @@ O projeto também demonstra etapas de preparação de dados, modelagem, constru�
 - **DAX:** indicadores, percentuais, diferenças em pontos percentuais e correlações.
 - **Power BI Service:** publicação e acesso ao relatório.
 
+## Documentação técnica
+
+- [Medidas DAX selecionadas e regras de cálculo](docs/medidas-dax.md)
+
 ## Modelo de dados
 
 ![Modelo de dados do projeto](imagens/modelo-dados.png)
